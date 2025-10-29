@@ -1,0 +1,50 @@
+# --- Python cache and compiled files ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- Environment and virtualenvs ---
+.env
+.venv/
+env/
+venv/
+*.env
+
+# --- Data (raw data should not be versioned if large) ---
+data/raw/
+
+# --- Logs and temp files ---
+*.log
+logs/
+tmp/
+temp/
+.DS_Store
+
+# --- IDE / editor settings ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS-specific files ---
+Thumbs.db
+.DS_Store
+
+# --- Machine Learning related ---
+# Model checkpoints, weights, etc.
+checkpoints/
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# --- Build files ---
+build/
+dist/
+*.egg-info/
+
